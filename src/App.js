@@ -8,7 +8,7 @@ class Fourm extends Component{
         <h1 className= 'title'>Please fill the form below</h1>
         </header>
         <body className='body'>
-        <text className= 'info'>Name</text>
+        <text className= 'info'>Full Name</text>
         <input
         className='txtField'
         type='text'
