@@ -1,0 +1,36 @@
+.RegFHead{
+    text-align: center;
+    color: black;
+    display: flex;
+    min-height: 150px;
+    background-color: yellow;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.RegBody{
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 40%;
+
+}
+.IUserInfo{
+    margin-top: 25px;
+    margin-right: 5%;
+}
+.UserInput{
+    margin-top: 25px;
+    min-height: 20px;
+    min-width: 20px;
+    
+}
+.SubmitButton{
+    margin-top: 50px;
+    margin-right: 10%;
+}
+.RegFFoot{
+    display: flex;
+    min-height: 100px;
+    background-color: yellow;
+    margin-top: 4.25%;
+}
