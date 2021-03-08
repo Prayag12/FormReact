@@ -1,30 +1,46 @@
 import React, { Component } from 'react';
 import './Registerstyle.css'
+import Logo from './image/Body.PNG'
 class Register extends Component {
     render() {
         return (
-            <div>
-                <header className='RegFHead'>
-                    <logo className='logo' >
-                    src: 'C:\Users\default.DESKTOP-75TJ0LU\Desktop\Home works so far\Information System\Website Agressive supplements\logo';
-                    </logo>
-                    <h1 className='Regtitle'>Registration Form</h1>
-                </header>
-                <body className='RegBody'>
-                    <text className='IUserInfo'>Name</text> <input className='UserInput' type='text' placeholder='First Name' /> <input className='UserInput' type='text' placeholder='Last Name' />
-                    <br />
-                    <text className='IUserInfo'>E-mail</text> <input className='UserInput' type='text' />
-                    <br />
-                    <text className='IUserInfo'>Contact Number</text> <input className='UserInput' type='text' />
-                    <br />
-                    <text className='IUserInfo'>Address</text> <input className='UserInput' type='text' />
-                    <br />
-                    <text className='IUserInfo'>Password</text> <input className='UserInput' type='password' />
-                    <br />
-                    <text className='IUserInfo'>Re-password</text> <input className='UserInput' type='password' />
-                    <br />
-                    <a href='/Login'><button className='SubmitButton'>Sign Up</button></a>
-                </body>
+            <div className='form'>
+                <div className='logo'>
+                    <img src={Logo} style={{ height: 100, width: 450, marginTop: 30 }} />
+                </div>
+                <div class="card" style={{ width: '35rem', borderRadius: '30px' }}>
+                    <h5 className='card-header RegFHead' style={{backgroundColor:'yellow', borderTopLeftRadius: '30px', borderTopRightRadius: '30px', paddingTop: '50px'}}>Registration Form</h5>
+                    <div class="card-body">
+                        {/* <header className='card-header RegFHead'>
+                            <h5 class="Regtitle">Registration Form</h5>
+                        </header> */}
+
+                        <body className='RegBody'>
+                            <text className='IUserInfo'>Name</text> <input className='UserInput' type='text' placeholder='First Name' /> <input className='UserInput' type='text' placeholder='Last Name' />
+                            <br />
+                            <text className='IUserInfo'>E-mail</text> <input className='UserInput' type='text' />
+                            <br />
+                            <text className='IUserInfo'>Contact Number</text> <input className='UserInput' type='text' />
+                            <br />
+                            <text className='IUserInfo'>Address</text> <input className='UserInput' type='text' />
+                            <br />
+                            <text className='IUserInfo'>Password</text> <input className='UserInput' type='password' />
+                            <br />
+                            <text className='IUserInfo'>Re-password</text> <input className='UserInput' type='password' />
+                            <br />
+                            <a href='/Login'><button className='SubmitButtonSignUp'>Sign Up</button></a>
+
+
+
+                        </body>
+
+
+                    </div>
+                </div>
+
+
+
+
                 <footer className='RegFFoot'>
 
                 </footer>

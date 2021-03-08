@@ -1,9 +1,20 @@
+.form{
+     background-image: url(./image/Background2.jpg);
+     background-size: cover;
+}
+.card{
+    margin-left: 530px;
+    margin-top: 20px;
+}
 .logo{
-    color: black;
+    height: 150px;
+    text-align: center;
+    background-color: yellow;
+
 }
 .RegFHead{
    /* text-align: center; */
-    color: white;
+    color: black;
     display: flex;
     min-height: 150px;
     background-color: yellow;
@@ -17,7 +28,7 @@
 .RegBody{
     margin-top: 50px;
     text-align: right;
-    margin-right: 40%;
+    margin-right: 25%;
 
 }
 .IUserInfo{
@@ -32,11 +43,14 @@
 }
 .SubmitButton{
     margin-top: 50px;
-    margin-right: 10%;
+    margin-left: 48%;
 }
+.SubmitButtonSignUp{
+    margin-top: 50px;
+    margin-right: 25%;
+} 
 .RegFFoot{
-   
-    min-height: 100px;
+    min-height: 150px;
     background-color: yellow;
-    margin-top: 2   0%;
+    margin-top: 5%;
 }
