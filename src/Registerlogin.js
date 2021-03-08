@@ -5,7 +5,10 @@ class Register extends Component {
         return (
             <div>
                 <header className='RegFHead'>
-                    <h1>Registration Form</h1>
+                    <logo className='logo' >
+                    src: 'C:\Users\default.DESKTOP-75TJ0LU\Desktop\Home works so far\Information System\Website Agressive supplements\logo';
+                    </logo>
+                    <h1 className='Regtitle'>Registration Form</h1>
                 </header>
                 <body className='RegBody'>
                     <text className='IUserInfo'>Name</text> <input className='UserInput' type='text' placeholder='First Name' /> <input className='UserInput' type='text' placeholder='Last Name' />

@@ -1,12 +1,18 @@
-.RegFHead{
-    text-align: center;
+.logo{
     color: black;
+}
+.RegFHead{
+   /* text-align: center; */
+    color: white;
     display: flex;
     min-height: 150px;
     background-color: yellow;
     justify-content: space-around;
     font-family: sans-serif;
     font-size: 30px;
+}
+.Regtitle{
+    margin-top: 50px;
 }
 .RegBody{
     margin-top: 50px;
@@ -29,8 +35,8 @@
     margin-right: 10%;
 }
 .RegFFoot{
-    display: flex;
+   
     min-height: 100px;
     background-color: yellow;
-    margin-top: 10.25%;
+    margin-top: 2   0%;
 }

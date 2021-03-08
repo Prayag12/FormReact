@@ -12,7 +12,7 @@ class Login extends Component{
                     <br/>
                     <text className='IUserInfo'>Password</text> <input className= 'UserInput' type='password'/>
                     <br/>
-                    <a href='/'><button className='SubmitButton'>Login</button></a>
+                    <a href='/'><button className='SubmitButton btn-success'>Login</button></a>
                 </body>
                 <footer className='RegFFoot'>
 
