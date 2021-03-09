@@ -8,7 +8,7 @@ class Login extends Component {
                 <div className='logo'>
                     <img src={Logo} style={{height: 100, width: 450, marginTop: 30}}/>
                 </div>
-                <div class="card" style={{ width: '30rem', borderRadius: '30px' }}>
+                <div class="card crds" style={{ width: '30rem', borderRadius: '30px' }}>
                 <h5 className='card-header RegFHead' style={{backgroundColor:'yellow', borderTopLeftRadius: '30px', borderTopRightRadius: '30px', paddingTop: '50px'}}>LogIn Form</h5>
                     <div class="card-body">
                       {/*<header className='RegFHead'>
@@ -23,7 +23,7 @@ class Login extends Component {
                         </body>
 
 
-                        <a href='/'><button className='SubmitButton btn-success'>Login</button></a>
+                        <a href='/Home'><button className='SubmitButton btn-success'>Login</button></a>
                        
                     </div>
                 </div>

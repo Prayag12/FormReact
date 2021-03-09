@@ -8,7 +8,7 @@ class Register extends Component {
                 <div className='logo'>
                     <img src={Logo} style={{ height: 100, width: 450, marginTop: 30 }} />
                 </div>
-                <div class="card" style={{ width: '35rem', borderRadius: '30px' }}>
+                <div class="card crds RegFHead" style={{ width: '35rem', borderRadius: '30px' }}>
                     <h5 className='card-header RegFHead' style={{backgroundColor:'yellow', borderTopLeftRadius: '30px', borderTopRightRadius: '30px', paddingTop: '50px'}}>Registration Form</h5>
                     <div class="card-body">
                         {/* <header className='card-header RegFHead'>
@@ -29,6 +29,7 @@ class Register extends Component {
                             <text className='IUserInfo'>Re-password</text> <input className='UserInput' type='password' />
                             <br />
                             <a href='/Login'><button className='SubmitButtonSignUp'>Sign Up</button></a>
+                            <a href='/Home'><button className='SubmitButtonSignUp'>Home</button></a>
 
 
 
