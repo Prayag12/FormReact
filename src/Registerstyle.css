@@ -1,3 +1,7 @@
+.accountText{
+    padding-left: 150px;
+    
+}
 .page{
     overflow: hidden;
     background-size: cover;
@@ -61,7 +65,7 @@
     
 }
 .SubmitButton{
-    margin-top: 50px;
+    margin-top: 25px;
     margin-left: 48%;
 }
 .SubmitButtonSignUp{

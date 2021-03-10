@@ -24,6 +24,10 @@ class Login extends Component {
 
 
                         <a href='/Home'><button className='SubmitButton btn-success'>Login</button></a>
+                        <br/>
+                        <br/>
+                        <text className='accountText'>don't have an account?</text>
+                        <a href='/Registerlogin'><button className='SubmitButton btn-success'>SignUp</button></a>
                        
                     </div>
                 </div>

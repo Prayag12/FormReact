@@ -29,7 +29,7 @@ class Register extends Component {
                             <text className='IUserInfo'>Re-password</text> <input className='UserInput' type='password' />
                             <br />
                             <a href='/Login'><button className='SubmitButtonSignUp'>Sign Up</button></a>
-                            <a href='/Home'><button className='SubmitButtonSignUp'>Home</button></a>
+                            <a href='/'><button className='SubmitButtonSignUp'>Home</button></a>
 
 
 
