@@ -11,9 +11,7 @@ class Register extends Component {
                 <div class="card crds RegFHead" style={{ width: '35rem', borderRadius: '30px' }}>
                     <h5 className='card-header RegFHead' style={{backgroundColor:'yellow', borderTopLeftRadius: '30px', borderTopRightRadius: '30px', paddingTop: '50px'}}>Registration Form</h5>
                     <div class="card-body">
-                        {/* <header className='card-header RegFHead'>
-                            <h5 class="Regtitle">Registration Form</h5>
-                        </header> */}
+                       
 
                         <body className='RegBody'>
                             <text className='IUserInfo'>Name</text> <input className='UserInput' type='text' placeholder='First Name' /> <input className='UserInput' type='text' placeholder='Last Name' />

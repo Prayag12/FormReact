@@ -5,6 +5,7 @@ import Login from './Login'
 import Registerlogin from './Registerlogin'
 import Home from './Home'
 import Cart from './cart'
+import Productprev from './ProductPreview'
 
 class Routing extends Component{
 render(){
@@ -15,6 +16,7 @@ render(){
                 <Route exact path= '/Login' component={Login}/>
                 <Route exact path='/Registerlogin' component={Registerlogin}/>
                 <Route exact path='/Cart' component={Cart}/>
+                <Route exact path='/Productpreview' component={Productprev}/>
             </Switch>
         </Router>
     )

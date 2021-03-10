@@ -23,7 +23,7 @@ class Login extends Component {
                         </body>
 
 
-                        <a href='/Home'><button className='SubmitButton btn-success'>Login</button></a>
+                        <a href='/'><button className='SubmitButton btn-success'>Login</button></a>
                         <br/>
                         <br/>
                         <text className='accountText'>don't have an account?</text>

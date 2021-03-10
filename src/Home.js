@@ -30,33 +30,56 @@ class Home extends Component {
                             <a href=''><h4 className='Nav'>About</h4></a>
                             <a href=''><h4 className='Nav'>Contact</h4></a>
                         </div>
+ {/*}                       <div>
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src={amino} alt="First slide" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src={gainer} alt="Second slide" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src={amino1} alt="Third slide" />
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+        </div> */}
                         <div className='row'>
                             <div class="card" style={{ width: '18rem' }}>
                                 <img class="card-img-top" src={whey} alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Protein powder</h5>
                                     <p class="card-text">Something something.</p>
-                                    <a href="/Cart" class="btn btn-primary">Add to cart</a>
+                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
                                 </div>
-                                
+
                             </div>
                             <div class="card" style={{ width: '18rem' }}>
                                 <img class="card-img-top" src={gainer} alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Gainer</h5>
                                     <p class="card-text">something something.</p>
-                                    <a href="/Cart" class="btn btn-primary">Add to cart</a>
+                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
                                 </div>
-                                
+
                             </div>
                             <div class="card" style={{ width: '18rem' }}>
                                 <img class="card-img-top" src={Creatine} alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Creatine</h5>
                                     <p class="card-text">Something something.</p>
-                                    <a href="/Cart" class="btn btn-primary">Add to cart</a>
+                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
                                 </div>
-                                
+
                             </div>
 
                         </div>
@@ -66,27 +89,27 @@ class Home extends Component {
                                 <div class="card-body">
                                     <h5 class="card-title">Protein powder</h5>
                                     <p class="card-text">Something something.</p>
-                                    <a href="/Cart" class="btn btn-primary">Add to cart</a>
+                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
                                 </div>
-                                
+
                             </div>
                             <div class="card" style={{ width: '18rem' }}>
                                 <img class="card-img-top" src={preworkout} alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Gainer</h5>
                                     <p class="card-text">something something.</p>
-                                    <a href="/Cart" class="btn btn-primary">Add to cart</a>
+                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
                                 </div>
-                                
+
                             </div>
                             <div class="card" style={{ width: '18rem' }}>
                                 <img class="card-img-top" src={amino1} alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title">Creatine</h5>
                                     <p class="card-text">Something something.</p>
-                                    <a href="Cart" class="btn btn-primary">Add to cart</a>
+                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
                                 </div>
-                                
+
                             </div>
 
                         </div>

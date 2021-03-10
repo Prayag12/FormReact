@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './Registerstyle.css'
 import Logo from './image/Body.PNG'
-class Register extends Component {
+class cart extends Component {
     render() {
         return (
+            <div className='page'>
             <div className='row top'>
                 <div className='logo col-sm-9'>
                     <img src={Logo} style={{ height: 100, width: 450, marginTop: 30 }} />
@@ -13,15 +14,20 @@ class Register extends Component {
                     <a href='/Login'><button className='Homebutton btn-success'>Login</button></a>
                     <a href='/Registerlogin'><button className='Homebutton btn-success'>Sign Up</button></a>
                 </div>
+            </div>
+            <body>
+                
 
+            </body>
 
-                <footer className='RegFFoot'>
+            <footer className='RegFFoot'>
 
-                </footer>
-            </div >
+            </footer>
+
+        </div>
 
 
         )
     }
 }
-export default Register
+export default cart
