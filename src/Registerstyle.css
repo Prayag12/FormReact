@@ -1,3 +1,12 @@
+.card-img-top{
+    height: 300px;
+    padding-top: 50px;
+}
+.card-img-top1{
+    height: 250px;
+    padding-top: 40px;
+
+}
 .accountText{
     padding-left: 150px;
     
@@ -23,7 +32,7 @@
 .top{
     height: 150px;
     text-align: center;
-    background-color: #FFDD00;
+    background-color: black;
 
 }
 .products{
@@ -78,18 +87,53 @@
     margin-top: 5%;
 }
 .Nav{
-    margin-left: 200px;
-    margin-top: 20px;
+    color: black;
+    margin-left: 2px;
+    margin-top: 10px;
+    border-style: solid transparent;
+    border-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
 
+}
+.Nav--active {
+    margin-left: 2px;
+    margin-top: 10px;
+    border-style: solid transparent;
+    border-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    background-color: rgb(243, 152, 14);
+    color: white;
+  }
+.Nav:hover{
+    background-color: rgb(243, 152, 14);
+    color: white;
+    transition: 0.6s ease;
+    
+
+}
+.Navbar{
+    padding-left: 800px;
+    
+}
+.Navbar a:hover{
+    color: transparent;
 }
 .Homebutton{
     margin-left: 20px;
 }
 
 .main{
-    background-image: linear-gradient( #FFDD00, #FBB034);
+    background-image: linear-gradient(#FF4E00,#FFDD00, white);
 }
-.btn-primary{
+.btn-outline-warning{
     margin-left: 8%;
 }
 .prevBtn{

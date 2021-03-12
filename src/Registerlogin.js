@@ -6,7 +6,7 @@ class Register extends Component {
         return (
             <div className='form'>
                 <div className='logo'>
-                    <img src={Logo} style={{ height: 100, width: 450, marginTop: 30 }} />
+                    <a href='/'><img src={Logo} style={{ height: 100, width: 450, marginTop: 30 }} /></a>
                 </div>
                 <div class="card crds RegFHead" style={{ width: '35rem', borderRadius: '30px' }}>
                     <h5 className='card-header RegFHead' style={{backgroundColor:'yellow', borderTopLeftRadius: '30px', borderTopRightRadius: '30px', paddingTop: '50px'}}>Registration Form</h5>

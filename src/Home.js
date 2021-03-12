@@ -7,6 +7,11 @@ import Creatine from './image/evlCreatine.jpg'
 import amino from './image/BCAA.jpg'
 import preworkout from './image/mpPreworkout.jpg'
 import amino1 from './image/mpAmino1.jpg'
+import MyVerticallyCenteredModal from './reactModal.js';
+import { FiShoppingCart } from 'react-icons/fi';
+import { FiSearch } from 'react-icons/fi';
+
+
 class Home extends Component {
     render() {
         return (
@@ -17,20 +22,32 @@ class Home extends Component {
                             <img src={Logo} style={{ height: 100, width: 450, marginTop: 30 }} />
                         </div>
                         <div className='btns col-sm'>
-                            <a href='/Cart'><button className='Homebutton btn-success'>Cart</button></a>
-                            <a href='/Login'><button className='Homebutton btn-success'>Login</button></a>
-                            <a href='/Registerlogin'><button className='Homebutton btn-success'>Sign Up</button></a>
+                            <a href='/Cart'><button type="button" class="btn btn-outline-warning" style={{ borderStyle: 'hidden' }}><FiShoppingCart /></button></a>
+                            <a href='/Login'><button type="button" class="btn btn-outline-warning">Login</button></a>
+                            <a href='/Registerlogin'><button type="button" class="btn btn-outline-warning">Sign Up</button></a>
                         </div>
                     </div>
                     <div className='main'>
                         <div className='row'>
-                            <a href='/Home'><h4 className='Nav'>Home</h4></a>
-                            <a href=''><h4 className='Nav'>What's New</h4></a>
-                            <a href=''><h4 className='Nav'>Products</h4></a>
-                            <a href=''><h4 className='Nav'>About</h4></a>
-                            <a href=''><h4 className='Nav'>Contact</h4></a>
+                            <div class="input-group col-sm-6" style={{marginTop: '15px', marginLeft: '15px'}}>
+                                <div class="form-outline">
+                                    <input type="search" id="form1" class="form-control" placeholder='Search' />
+
+                                </div>
+                                <button type="button" class="btn btn-warning" style={{height: '38px'}}>
+                                    <i class="fas fi-search"><FiSearch/></i>
+                                </button>
+                            </div>
+
+                            <div className='row Navbar col-sm-6'>
+                                <a href='/'><h4 className='Nav--active'>Home</h4></a>
+                                <a href=''><h4 className='Nav'>What's New</h4></a>
+                                <a href=''><h4 className='Nav'>Products</h4></a>
+                                <a href=''><h4 className='Nav'>About</h4></a>
+                                <a href=''><h4 className='Nav'>Contact</h4></a>
+                            </div>
                         </div>
- {/*}                       <div>
+                        {/*}                       <div>
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -55,11 +72,12 @@ class Home extends Component {
         </div> */}
                         <div className='row'>
                             <div class="card" style={{ width: '18rem' }}>
-                                <img class="card-img-top" src={whey} alt="Card image cap" />
+                                <img class="card-img-top" src={whey} alt="Card image cap" style={{ height: '350px' }} />
                                 <div class="card-body">
                                     <h5 class="card-title">Protein powder</h5>
                                     <p class="card-text">Something something.</p>
-                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
+                                    <MyVerticallyCenteredModal />
+
                                 </div>
 
                             </div>
@@ -68,7 +86,7 @@ class Home extends Component {
                                 <div class="card-body">
                                     <h5 class="card-title">Gainer</h5>
                                     <p class="card-text">something something.</p>
-                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
+                                    <MyVerticallyCenteredModal />
                                 </div>
 
                             </div>
@@ -77,7 +95,7 @@ class Home extends Component {
                                 <div class="card-body">
                                     <h5 class="card-title">Creatine</h5>
                                     <p class="card-text">Something something.</p>
-                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
+                                    <MyVerticallyCenteredModal />
                                 </div>
 
                             </div>
@@ -89,7 +107,7 @@ class Home extends Component {
                                 <div class="card-body">
                                     <h5 class="card-title">Protein powder</h5>
                                     <p class="card-text">Something something.</p>
-                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
+                                    <MyVerticallyCenteredModal />
                                 </div>
 
                             </div>
@@ -98,20 +116,40 @@ class Home extends Component {
                                 <div class="card-body">
                                     <h5 class="card-title">Gainer</h5>
                                     <p class="card-text">something something.</p>
-                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
+                                    <MyVerticallyCenteredModal />
                                 </div>
 
                             </div>
                             <div class="card" style={{ width: '18rem' }}>
-                                <img class="card-img-top" src={amino1} alt="Card image cap" />
+                                <img class="card-img-top1" src={amino1} alt="Card image cap" />
                                 <div class="card-body">
-                                    <h5 class="card-title">Creatine</h5>
+                                    <h5 class="card-title" style={{ paddingTop: '50px' }}>Creatine</h5>
                                     <p class="card-text">Something something.</p>
-                                    <a href="/Productpreview" class="btn btn-primary">View Product</a>
+                                    <MyVerticallyCenteredModal />
                                 </div>
 
                             </div>
 
+                        </div>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+      </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
