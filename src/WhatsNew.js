@@ -12,7 +12,7 @@ import { FiShoppingCart } from 'react-icons/fi';
 import { FiSearch } from 'react-icons/fi';
 
 
-class Home extends Component {
+class Whatsnew extends Component {
     render() {
         return (
             <div className='page'>
@@ -40,38 +40,35 @@ class Home extends Component {
                             </div>
 
                             <div className='row Navbar col-sm-6'>
-                                <a href='/'><h4 className='Nav--active'>Home</h4></a>
-                                <a href='/WhatsNew'><h4 className='Nav'>What's New</h4></a>
+                                <a href='/'><h4 className='Nav'>Home</h4></a>
+                                <a href='/Whatsnew'><h4 className='Nav--active'>What's New</h4></a>
                                 <a href='/Product'><h4 className='Nav'>Products</h4></a>
                                 <a href='/About'><h4 className='Nav'>About</h4></a>
                                 <a href='/Contact'><h4 className='Nav'>Contact</h4></a>
                             </div>
                         </div>
+                       
                         <div className='row'>
                             <div className="card" style={{ width: '18rem' }}>
-                                <img className="card-img-top" src={whey} alt="Card image cap" style={{ height: '350px' }} />
+                                <img className="card-img-top" src={''} alt="Card image cap" style={{ height: '350px' }} />
                                 <div className="card-body">
-                                    <h5 className="card-title">Protein powder</h5>
-                                    <p className="card-text">Something something.</p>
-                                    <MyVerticallyCenteredModal />
-
-                                </div>
-
-                            </div>
-                            <div className="card" style={{ width: '18rem' }}>
-                                <img className="card-img-top" src={gainer} alt="Card image cap" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Gainer</h5>
-                                    <p className="card-text">something something.</p>
+                                    
                                     <MyVerticallyCenteredModal />
                                 </div>
 
                             </div>
                             <div className="card" style={{ width: '18rem' }}>
-                                <img className="card-img-top" src={Creatine} alt="Card image cap" />
+                                <img className="card-img-top" src={''} alt="Card image cap" />
                                 <div className="card-body">
-                                    <h5 className="card-title">Creatine</h5>
-                                    <p className="card-text">Something something.</p>
+                                    
+                                    <MyVerticallyCenteredModal />
+                                </div>
+
+                            </div>
+                            <div className="card" style={{ width: '18rem' }}>
+                                <img className="card-img-top" src={''} alt="Card image cap" />
+                                <div className="card-body">
+                                    
                                     <MyVerticallyCenteredModal />
                                 </div>
 
@@ -80,28 +77,25 @@ class Home extends Component {
                         </div>
                         <div className='row'>
                             <div className="card" style={{ width: '18rem' }}>
-                                <img className="card-img-top" src={amino} alt="Card image cap" />
+                                <img className="card-img-top" src={''} alt="Card image cap" />
                                 <div className="card-body">
-                                    <h5 className="card-title">Protein powder</h5>
-                                    <p className="card-text">Something something.</p>
+                                    
                                     <MyVerticallyCenteredModal />
                                 </div>
 
                             </div>
                             <div className="card" style={{ width: '18rem' }}>
-                                <img className="card-img-top" src={preworkout} alt="Card image cap" />
+                                <img className="card-img-top" src={''} alt="Card image cap" />
                                 <div className="card-body">
-                                    <h5 className="card-title">Gainer</h5>
-                                    <p className="card-text">something something.</p>
+                                    
                                     <MyVerticallyCenteredModal />
                                 </div>
 
                             </div>
                             <div className="card" style={{ width: '18rem' }}>
-                                <img className="card-img-top1" src={amino1} alt="Card image cap" />
+                                <img className="card-img-top1" src={''} alt="Card image cap" />
                                 <div className="card-body">
-                                    <h5 className="card-title" style={{ paddingTop: '50px' }}>Creatine</h5>
-                                    <p className="card-text">Something something.</p>
+                                    
                                     <MyVerticallyCenteredModal />
                                 </div>
 
@@ -135,4 +129,4 @@ class Home extends Component {
         )
     }
 }
-export default Home
+export default Whatsnew

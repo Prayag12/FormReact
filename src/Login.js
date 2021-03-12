@@ -8,9 +8,9 @@ class Login extends Component {
                 <div className='logo'>
                     <a href='/'><img src={Logo} style={{height: 100, width: 450, marginTop: 30}}/></a>
                 </div>
-                <div class="card crds" style={{ width: '30rem', borderRadius: '30px' }}>
+                <div className="card crds" style={{ width: '30rem', borderRadius: '30px' }}>
                 <h5 className='card-header RegFHead' style={{backgroundColor:'yellow', borderTopLeftRadius: '30px', borderTopRightRadius: '30px', paddingTop: '50px'}}>LogIn Form</h5>
-                    <div class="card-body">
+                    <div className="card-body">
                       {/*<header className='RegFHead'>
                             <h1 className='Regtitle'>Log In Form</h1>
         </header>*/}
@@ -22,12 +22,13 @@ class Login extends Component {
 
                         </body>
 
-
-                        <a href='/'><button className='SubmitButton btn-success'>Login</button></a>
+                        <a href=''><text className='accountText'>forgot password?</text></a>
+                        <a href='/'><button className='Nav' style={{marginLeft:'42%'}}>Login</button></a>
                         <br/>
                         <br/>
-                        <text className='accountText'>don't have an account?</text>
-                        <a href='/Registerlogin'><button className='SubmitButton btn-success'>SignUp</button></a>
+                        <a href=''><text className='accountText'>don't have an account?</text></a>
+                        <br/>
+                        <a href='/Registerlogin'><button className='Nav' style={{marginLeft:'41%'}}>SignUp</button></a>
                        
                     </div>
                 </div>

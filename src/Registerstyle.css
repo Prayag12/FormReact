@@ -9,6 +9,7 @@
 }
 .accountText{
     padding-left: 150px;
+    color: black;
     
 }
 .page{
@@ -58,7 +59,7 @@
     margin-top: 50px;
 }
 .RegBody{
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: right;
     margin-right: 25%;
 

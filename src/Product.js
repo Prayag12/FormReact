@@ -12,7 +12,7 @@ import { FiShoppingCart } from 'react-icons/fi';
 import { FiSearch } from 'react-icons/fi';
 
 
-class Home extends Component {
+class Product extends Component {
     render() {
         return (
             <div className='page'>
@@ -40,13 +40,14 @@ class Home extends Component {
                             </div>
 
                             <div className='row Navbar col-sm-6'>
-                                <a href='/'><h4 className='Nav--active'>Home</h4></a>
-                                <a href='/WhatsNew'><h4 className='Nav'>What's New</h4></a>
-                                <a href='/Product'><h4 className='Nav'>Products</h4></a>
+                                <a href='/'><h4 className='Nav'>Home</h4></a>
+                                <a href='/Whatsnew'><h4 className='Nav'>What's New</h4></a>
+                                <a href='/Product'><h4 className='Nav--active'>Products</h4></a>
                                 <a href='/About'><h4 className='Nav'>About</h4></a>
                                 <a href='/Contact'><h4 className='Nav'>Contact</h4></a>
                             </div>
                         </div>
+                       
                         <div className='row'>
                             <div className="card" style={{ width: '18rem' }}>
                                 <img className="card-img-top" src={whey} alt="Card image cap" style={{ height: '350px' }} />
@@ -135,4 +136,4 @@ class Home extends Component {
         )
     }
 }
-export default Home
+export default Product
